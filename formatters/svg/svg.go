@@ -10,7 +10,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/alecthomas/chroma"
+	"github.com/Niols/chroma"
 )
 
 // Option sets an option of the SVG formatter.

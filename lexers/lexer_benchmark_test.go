@@ -3,8 +3,8 @@ package lexers_test
 import (
 	"testing"
 
-	"github.com/alecthomas/chroma"
-	"github.com/alecthomas/chroma/lexers/g"
+	"github.com/Niols/chroma"
+	"github.com/Niols/chroma/lexers/g"
 	"github.com/stretchr/testify/assert"
 )
 

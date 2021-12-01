@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/alecthomas/chroma"
+	"github.com/Niols/chroma"
 )
 
 // Option sets an option of the HTML formatter.

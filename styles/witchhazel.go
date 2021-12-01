@@ -15,7 +15,7 @@
 package styles
 
 import (
-	"github.com/alecthomas/chroma"
+	"github.com/Niols/chroma"
 )
 
 // WitchHazel Style

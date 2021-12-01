@@ -3,9 +3,9 @@ package circular
 import (
 	"strings"
 
-	. "github.com/alecthomas/chroma" // nolint
-	"github.com/alecthomas/chroma/lexers/h"
-	"github.com/alecthomas/chroma/lexers/internal"
+	. "github.com/Niols/chroma" // nolint
+	"github.com/Niols/chroma/lexers/h"
+	"github.com/Niols/chroma/lexers/internal"
 )
 
 // PHTML lexer is PHP in HTML.

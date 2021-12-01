@@ -3,7 +3,7 @@ package g
 import (
 	"testing"
 
-	"github.com/alecthomas/chroma"
+	"github.com/Niols/chroma"
 	"github.com/stretchr/testify/assert"
 )
 

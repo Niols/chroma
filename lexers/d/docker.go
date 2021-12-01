@@ -1,10 +1,10 @@
 package d
 
 import (
-	. "github.com/alecthomas/chroma" // nolint
-	"github.com/alecthomas/chroma/lexers/b"
-	"github.com/alecthomas/chroma/lexers/internal"
-	"github.com/alecthomas/chroma/lexers/j"
+	. "github.com/Niols/chroma" // nolint
+	"github.com/Niols/chroma/lexers/b"
+	"github.com/Niols/chroma/lexers/internal"
+	"github.com/Niols/chroma/lexers/j"
 )
 
 // Docker lexer.

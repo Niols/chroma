@@ -3,8 +3,8 @@ package s
 import (
 	"fmt"
 
-	. "github.com/alecthomas/chroma" // nolint
-	"github.com/alecthomas/chroma/lexers/internal"
+	. "github.com/Niols/chroma" // nolint
+	"github.com/Niols/chroma/lexers/internal"
 )
 
 // Scala lexer.

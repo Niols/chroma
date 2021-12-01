@@ -1,4 +1,4 @@
-module github.com/alecthomas/chroma
+module github.com/Niols/chroma
 
 go 1.13
 

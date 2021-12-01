@@ -1,5 +1,5 @@
 # Chroma — A general purpose syntax highlighter in pure Go
-[![Golang Documentation](https://godoc.org/github.com/alecthomas/chroma?status.svg)](https://godoc.org/github.com/alecthomas/chroma) [![CI](https://github.com/alecthomas/chroma/actions/workflows/ci.yml/badge.svg)](https://github.com/alecthomas/chroma/actions/workflows/ci.yml) [![Slack chat](https://img.shields.io/static/v1?logo=slack&style=flat&label=slack&color=green&message=gophers)](https://invite.slack.golangbridge.org/)
+[![Golang Documentation](https://godoc.org/github.com/Niols/chroma?status.svg)](https://godoc.org/github.com/Niols/chroma) [![CI](https://github.com/Niols/chroma/actions/workflows/ci.yml/badge.svg)](https://github.com/Niols/chroma/actions/workflows/ci.yml) [![Slack chat](https://img.shields.io/static/v1?logo=slack&style=flat&label=slack&color=green&message=gophers)](https://invite.slack.golangbridge.org/)
 
 > **NOTE:** As Chroma has just been released, its API is still in flux. That said, the high-level interface should not change significantly.
 
@@ -75,9 +75,9 @@ Try out various languages and styles on the [Chroma Playground](https://swapoff.
 ## Using the library
 
 Chroma, like Pygments, has the concepts of
-[lexers](https://github.com/alecthomas/chroma/tree/master/lexers),
-[formatters](https://github.com/alecthomas/chroma/tree/master/formatters) and
-[styles](https://github.com/alecthomas/chroma/tree/master/styles).
+[lexers](https://github.com/Niols/chroma/tree/master/lexers),
+[formatters](https://github.com/Niols/chroma/tree/master/formatters) and
+[styles](https://github.com/Niols/chroma/tree/master/styles).
 
 Lexers convert source text into a stream of tokens, styles specify how token
 types are mapped to colours, and formatters convert tokens and styles into
@@ -217,7 +217,7 @@ python3 _tools/pygments2chroma.py \
   && gofmt -s -w lexers/k/kotlin.go
 ```
 
-See notes in [pygments-lexers.txt](https://github.com/alecthomas/chroma/blob/master/pygments-lexers.txt)
+See notes in [pygments-lexers.txt](https://github.com/Niols/chroma/blob/master/pygments-lexers.txt)
 for a list of lexers, and notes on some of the issues importing them.
 
 <a id="markdown-formatters" name="formatters"></a>
@@ -235,7 +235,7 @@ Chroma styles use the [same syntax](http://pygments.org/docs/styles/) as Pygment
 
 All Pygments styles have been converted to Chroma using the `_tools/style.py` script.
 
-When you work with one of [Chroma's styles](https://github.com/alecthomas/chroma/tree/master/styles), know that the `chroma.Background` token type provides the default style for tokens. It does so by defining a foreground color and background color.
+When you work with one of [Chroma's styles](https://github.com/Niols/chroma/tree/master/styles), know that the `chroma.Background` token type provides the default style for tokens. It does so by defining a foreground color and background color.
 
 For example, this gives each token name not defined in the style a default color of `#f8f8f8` and uses `#000000` for the highlighted code block's background:
 
@@ -252,7 +252,7 @@ For a quick overview of the available styles and how they look, check out the [C
 
 A command-line interface to Chroma is included.
 
-Binaries are available to install from [the releases page](https://github.com/alecthomas/chroma/releases).
+Binaries are available to install from [the releases page](https://github.com/Niols/chroma/releases).
 
 The CLI can be used as a preprocessor to colorise output of `less(1)`,
 see documentation for the `LESSOPEN` environment variable.

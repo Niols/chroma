@@ -1,9 +1,9 @@
 package m
 
 import (
-	. "github.com/alecthomas/chroma"          // nolint
-	. "github.com/alecthomas/chroma/lexers/b" // nolint
-	"github.com/alecthomas/chroma/lexers/internal"
+	. "github.com/Niols/chroma"          // nolint
+	. "github.com/Niols/chroma/lexers/b" // nolint
+	"github.com/Niols/chroma/lexers/internal"
 )
 
 // Makefile lexer.

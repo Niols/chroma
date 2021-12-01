@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/alecthomas/chroma"
-	"github.com/alecthomas/chroma/formatters"
-	"github.com/alecthomas/chroma/lexers"
-	"github.com/alecthomas/chroma/lexers/a"
-	"github.com/alecthomas/chroma/lexers/x"
-	"github.com/alecthomas/chroma/styles"
+	"github.com/Niols/chroma"
+	"github.com/Niols/chroma/formatters"
+	"github.com/Niols/chroma/lexers"
+	"github.com/Niols/chroma/lexers/a"
+	"github.com/Niols/chroma/lexers/x"
+	"github.com/Niols/chroma/styles"
 )
 
 func TestCompileAllRegexes(t *testing.T) {

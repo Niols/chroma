@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/alecthomas/chroma"
+	"github.com/Niols/chroma"
 )
 
 var (
